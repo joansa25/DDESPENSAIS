@@ -1,0 +1,94 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    margin-left: 350px; /* Ajusta este valor según sea necesario */
+}
+          .btn-custom {
+            padding: 10px 20px;
+            margin-bottom: 60px;
+        }
+        .container-custom {
+            margin-top: 280px;
+        }
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    width: 250px;
+    background-color: #006400;
+    padding-top: 60px;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    color: #fff;
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Botón de la barra lateral */
+.sidebar-toggle {
+    position: fixed;
+    left: 0;
+    top: 10px;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+        .btn-custom {
+            padding: 10px 20px;
+            margin-bottom: 5px;
+                margin-left: 10px; /* Ajusta este valor según sea necesario */
+
+        }
+        .container-custom {                        margin-top: 280px;
+
+        }
+        .footer {
+            padding: 00px;
+        }
+        .footer p {
+            margin-bottom: 5px;
+                        text-align: right; /* Alineación del texto a la derecha */
+
+        }
+        .navbar {
+                background-color: #006400;
+
+        }
+        .navbar-brand{
+            color: #fff;
+        }
